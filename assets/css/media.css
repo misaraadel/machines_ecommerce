@@ -1,0 +1,66 @@
+@media (max-width: 999px) {
+    .navbar .top-nav .form-content{
+        display: none !important;
+    }
+
+    .navbar .top-nav .icons.left-side{
+        justify-content: center;
+    }
+
+    .mobile-none{
+        display: none !important;
+    }
+
+    .navbar .bottom-nav{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        top: 116px;
+        right: -100%;
+        z-index: 9999;
+        transition: all .4s linear;
+    }
+
+    .acitve-nav{
+        right: 0% !important;
+    }
+
+    .navbar .bottom-nav .nav-content .navbar-nav{
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: flex-start !important;
+    }
+
+    .navbar .bottom-nav .nav-content .navbar-nav li{
+        margin-bottom: 20px;
+    }
+
+    .navbar .top-nav .logo-contnet .brand-name img{
+        width: 140px;
+    }
+
+    header .item .content{
+        width: 100%;
+    }
+    .navbar .top-nav .logo-contnet
+    {
+        padding: 5px 0px !important;
+        border-bottom: 0px !important;
+    }
+
+    .hamburger{
+        display: block !important;
+    }
+
+    footer .links{
+        flex-wrap: wrap !important;
+    }
+
+    footer .links li{
+        margin: 0px 10px 10px 0px;
+    }
+    footer .links li a{
+        font-size: 15px !important;
+    }
+}
