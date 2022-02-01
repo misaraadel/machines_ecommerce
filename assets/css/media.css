@@ -63,4 +63,17 @@
     footer .links li a{
         font-size: 15px !important;
     }
+
+    .banners .item img{
+        height: 200px;
+        border-radius: 10px !important;
+    }
+
+    .banners .owl-carousel .owl-stage{
+        padding: 0px !important;
+    }
+
+    header .item{
+        padding-top: 100px !important;
+    }
 }

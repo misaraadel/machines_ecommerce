@@ -1604,7 +1604,7 @@ header .item::after {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(37, 91, 155, 0.8);
+  background-color: rgba(37, 91, 155, 0.9);
   top: 0;
   left: 0;
   z-index: -1;
@@ -1636,8 +1636,8 @@ header .item h4 {
   font-weight: 900;
   color: #fff;
   margin: 0px;
-  -webkit-transition: all 4000ms linear;
-  transition: all 4000ms linear;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
   opacity: 0;
 }
 
@@ -1646,8 +1646,8 @@ header .item p {
   font-size: 15px;
   font-weight: 500;
   margin: 20px 0px;
-  -webkit-transition: all 4000ms linear;
-  transition: all 4000ms linear;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
   opacity: 0;
 }
 
@@ -1673,8 +1673,8 @@ header .item .custom-btn {
   overflow: hidden;
   z-index: 9;
   position: relative;
-  -webkit-transition: all 4000ms linear;
-  transition: all 4000ms linear;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
   opacity: 0;
 }
 
@@ -2312,7 +2312,6 @@ header .owl-item.active p {
 
 .banners {
   width: 100%;
-  padding: 30px 0px;
   background-color: #fff;
 }
 
