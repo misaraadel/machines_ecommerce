@@ -37,7 +37,6 @@ $(document).ready(function () {
         margin: 0,
         nav:false,
         dots: true,
-        autoplay: false,
 		autoWidth: false,
 		animateOut: 'fadeOut',
         animateIn: 'fadeIn',
