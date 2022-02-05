@@ -263,7 +263,7 @@ header{
         h4{
             font-size: 35px;
             font-weight: 900;
-            color: #fff;
+            color: #F76E11;
             margin: 0px;
             transition: all .4s linear;
             opacity: 0;
@@ -403,8 +403,8 @@ header{
         color: #255B9B;
         font-size: 20px;
         font-weight: 900;
-        border-left: 2px solid #255B9B;
-        border-right: 2px solid #255B9B;
+        border-left: 2px solid #F76E11;
+        border-right: 2px solid #F76E11;
         border-radius: 5px;
         background-color: #fff;
     }
@@ -437,7 +437,7 @@ header{
         align-items: center;
         align-content: center;
         justify-content: center;
-        border: 1px solid #255B9B;
+        border: 1px solid #F76E11;
         z-index: 9;
         position: relative;
         overflow: hidden;
@@ -452,7 +452,7 @@ header{
             width: 55%;
             height: 100%;
             top: 0;
-            background-color: #255B9B;
+            background-color: #F76E11;
             z-index: -1;
             transition: all .4s linear;
         }
@@ -472,7 +472,7 @@ header{
                 width: 0%;
             }
 
-            color: #255B9B;
+            color: #F76E11;
         }
     }
 }
@@ -808,7 +808,7 @@ header{
         }
 
         h4{
-            color: #255B9B;
+            color: #F76E11;
             font-weight: 900;
             font-size: 20px;
             margin: 20px 0px;
@@ -816,6 +816,14 @@ header{
 
         .button-contain{
             margin: 0px;
+            
+            .custom-btn{
+                background-color: #255B9B;
+
+                &::after , &::before{
+                    background-color: #255B9B;
+                }
+            }
         }
     }
 
